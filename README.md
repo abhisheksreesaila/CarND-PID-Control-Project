@@ -7,18 +7,18 @@ Self-Driving Car Engineer Nanodegree Program
 
 # Roles of P, I, and D
 
-Proportional coefficient (P)
+## Proportional coefficient (P)
 We use P is to make the car move towards CTE.
 P is useful to fix the initially error and move towards a goal (here achieving CTE) exponentially, but as it moves closer 
 to the goal it will over-compensate and move past it. we need few things to adjust as it moves closer. This is possible by D. 
  
 
-# Differential coefficient (D)
+## Differential coefficient (D)
 As mentioned earlier, as it moves closer this will help keep an eye on the goal and help achieve the goal by 
 reducing the effects of P near the goal and slowly converge towards the zero error 
 
 
-# Integral coefficient (I)
+## Integral coefficient (I)
 
 The role of the I's term is to compensate systematic bias. This can occur if the car has been incorrectly fixed or designed.
 for eg. if the car is designed to left steer, this co-efficient will help right steer to obtain the balance over time.
