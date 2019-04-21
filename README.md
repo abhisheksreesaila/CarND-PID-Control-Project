@@ -24,8 +24,9 @@ The role of the I's term is to compensate systematic bias. This can occur if the
 for eg. if the car is designed to left steer, this co-efficient will help right steer to obtain the balance over time.
 I assume since this is a simulator and no such things can occur I set to 0.00. 
 
+# Choosing hyperparameters
 
-
+The hyperparameters were chosen manually. I started off with values provided in the class and slowly tweaked after repeated simulations to arrive at the chosen values ensuring the car does not fall off the track.
 
 ## Dependencies
 
